@@ -1,0 +1,198 @@
+doctype html
+head
+  title Arcade - Architecture
+  meta(charset='UTF-8')
+  meta(name='description' content='Arcade - Architecture Template')
+  meta(name='keywords' content='arcade, architecture, onepage, creative, html')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  // Favicon
+  link(href='img/favicon.ico' rel='shortcut icon')
+  // Google Fonts
+  link(href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700' rel='stylesheet')
+  // Stylesheets
+  link(rel='stylesheet' href='css/bootstrap.min.css')
+  link(rel='stylesheet' href='css/font-awesome.min.css')
+  link(rel='stylesheet' href='css/animate.css')
+  link(rel='stylesheet' href='css/owl.carousel.css')
+  link(rel='stylesheet' href='css/style.css')
+  //if lt IE 9
+    script(src='https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js')
+    script(src='https://oss.maxcdn.com/respond/1.4.2/respond.min.js')
+// Page Preloder
+#preloder
+  .loader
+// Header section start
+header.header-area
+  a.logo-area(href='home.html')
+    img(src='img/logo.png' alt='')
+  .nav-switch
+    i.fa.fa-bars
+  .phone-number +675 334 567 223
+  nav.nav-menu
+    ul
+      li
+        a(href='/') Home
+      li.active
+        a(href='about') About us
+      li
+        a(href='contact') Contact
+// Header section end
+// Page header section start
+section.page-header-section.set-bg(data-setbg='img/header-bg.jpg')
+  .container
+    h1.header-title
+      | About us
+      span .
+// Page header section end
+// Intro section start
+section.intro-section.spad
+  .container
+    .row
+      .col-lg-8.intro-text
+        h1
+          | We are a creative Architecture
+          span Studio
+        .row
+          .col-md-6
+            p
+              | Pellentesque lorem dolor, malesuada eget tortor vitae, tristique lacinia lectus. Pellentesque sed accumsan risus, id aliquam nulla. Integer lorem risus, feugiat at mauris malesuada, accumsan pellentesque ipsum. Nunc dapibus, libero ut pulvinar accumsan, tortor nisl iaculis ligula.
+          .col-md-6
+            p
+              | Curabitur finibus dolor vel lectus pretium interdum a eget ante. Morbi rhoncus feugiat imperdiet. Curabitur non maximus leo. Nulla in ipsum sed magna egestas bibendum. Integer in sem sagittis, commodo mi sit amet, commodo nibh. Suspendisse potenti. Aliquam erat volutpat.
+      .col-lg-4.pt-4
+        img(src='img/about.jpg' alt='')
+// Intro section end
+// Testimonials section start
+section.testimonials-section.spad
+  .testimonials-image-box
+  .container
+    .row
+      .col-lg-7.pl-lg-0.offset-lg-5.cta-content
+        h1
+          | Clients
+          span testimonials
+        .qut &ldquo;
+        #test-slider.testimonials-slider
+          .ts-item
+            p
+              | Pellentesque lorem dolor, malesuada eget tortor vitae, tristique lacinia lectus. Pellentesque sed accumsan risus, id aliquam nulla. Integer lorem risus, feugiat at mauris malesuada, accumsan pellentesque ipsum. Nunc dapibus, libero ut pulvinar accumsan, tortor nisl iaculis ligula. Curabitur finibus dolor vel lectus pretium interdum a eget ante.
+            h4 Maria Westminster
+            span Client
+          .ts-item
+            p
+              | Pellentesque lorem dolor, malesuada eget tortor vitae, tristique lacinia lectus. Pellentesque sed accumsan risus, id aliquam nulla. Integer lorem risus, feugiat at mauris malesuada, accumsan pellentesque ipsum. Nunc dapibus, libero ut pulvinar accumsan, tortor nisl iaculis ligula. Curabitur finibus dolor vel lectus pretium interdum a eget ante.
+            h4 Maria Westminster
+            span Client
+          .ts-item
+            p
+              | Pellentesque lorem dolor, malesuada eget tortor vitae, tristique lacinia lectus. Pellentesque sed accumsan risus, id aliquam nulla. Integer lorem risus, feugiat at mauris malesuada, accumsan pellentesque ipsum. Nunc dapibus, libero ut pulvinar accumsan, tortor nisl iaculis ligula. Curabitur finibus dolor vel lectus pretium interdum a eget ante.
+            h4 Maria Westminster
+            span Client
+        #snh-2.slide-num-holder.test-slider
+// Testimonials section end
+// Team section start
+section.team-section.spad
+  .container
+    .section-title.mb100
+      h1 The Team
+    .row
+      .col-lg-4.col-md-6
+        .team-member
+          img(src='img/team/1.jpg' alt='')
+          .member-info
+            h2 Jack Smith
+            p Senior Architect
+      .col-lg-4.col-md-6
+        .team-member
+          img(src='img/team/2.jpg' alt='')
+          .member-info
+            h2 Lili Jameson
+            p Senior Architect
+      .col-lg-4.col-md-6
+        .team-member
+          img(src='img/team/3.jpg' alt='')
+          .member-info
+            h2 Michael Dow
+            p Senior Architect
+// Team section end
+section.promo-section
+  .container
+    .row
+      .col-lg-9.promo-text
+        h1
+          | In need of a
+          span fabulouse
+          |  home?
+        p
+          | Pellentesque lorem dolor, malesuada eget tortor vitae, tristique lacinia lectus. Pellentesque sed accumsan risus.
+      .col-lg-3.text-lg-right
+        a.site-btn.sb-dark.mt-4(href='#') Get in Touch
+// Footer section start
+footer.footer-section
+  .footer-social
+    .social-links
+      a(href='#')
+        i.fa.fa-pinterest
+      a(href='#')
+        i.fa.fa-linkedin
+      a(href='#')
+        i.fa.fa-instagram
+      a(href='#')
+        i.fa.fa-facebook
+      a(href='#')
+        i.fa.fa-twitter
+  .container
+    .row
+      .col-lg-9.offset-lg-3
+        .row
+          .col-md-4
+            .footer-item
+              ul
+                li
+                  a(href='#') Home
+                li
+                  a(href='#') About us
+                li
+                  a(href='#') Services
+                li
+                  a(href='#') Portfolio
+                li
+                  a(href='#') Blog
+          .col-md-4
+            .footer-item
+              ul
+                li
+                  a(href='#') Terms &amp; Conditions
+                li
+                  a(href='#') FAQ
+                li
+                  a(href='#') Help Desk
+                li
+                  a(href='#') Job Aplications
+                li
+                  a(href='#') Site Map
+          .col-md-4
+            .footer-item
+              ul
+                li
+                  a(href='#') Privacy
+                li
+                  a(href='#') Contact us
+                li
+                  a(href='#') Newsletter
+                li
+                  a(href='#') Clients Testimonials
+                li
+                  a(href='#') FAQ
+
+// Footer section end
+// ====== Javascripts & Jquery ======
+script(src='js/jquery-2.1.4.min.js')
+script(src='js/bootstrap.min.js')
+script(src='js/isotope.pkgd.min.js')
+script(src='js/owl.carousel.min.js')
+script(src='js/jquery.owl-filter.js')
+script(src='js/magnific-popup.min.js')
+script(src='js/circle-progress.min.js')
+script(src='js/main.js')
+
